@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老黑与老同学海南自驾行程单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f5f8ff;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e6f7ff;
+        }
+        h1 {
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        .budget {
+            background-color: #e6f7ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .budget h2 {
+            color: #00509e;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        .budget ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .budget li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #cce7ff;
+        }
+        .day-card {
+            margin-bottom: 30px;
+            border: 1px solid #e6f7ff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .day-header {
+            background-color: #0066cc;
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .day-content {
+            padding: 20px;
+        }
+        .accommodation {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+        .accommodation h3 {
+            color: #00509e;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e6f7ff;
+        }
+        th {
+            background-color: #e6f7ff;
+            color: #00509e;
+        }
+        .tips {
+            background-color: #fff8e6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .tips h2 {
+            color: #e68a00;
+            margin-bottom: 15px;
+        }
+        .tips ul {
+            padding-left: 20px;
+        }
+        .tips li {
+            margin-bottom: 8px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            table {
+                font-size: 0.9rem;
+            }
+            th, td {
+                padding: 8px 10px;
+            }
+            .budget ul {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>老黑与老同学海南自驾行程单</h1>
+            <p>路线：三亚 → 陵水 → 万宁 | 轻松出片 | 自驾友好</p>
+        </header>     
+        <section class="day-card">
+            <div class="day-header">Day 1 三亚全天（玩海 + 日落 + 夜市）</div>
+            <div class="day-content">
+                <table>
+                    <tr>
+                        <th>时间</th>
+                        <th>行程</th>
+                        <th>详情</th>
+                    </tr>
+                    <tr>
+                        <td>09:30</td>
+                        <td>起床 + 早餐</td>
+                        <td>酒店早餐或周边早餐店，推荐海南粉、抱罗粉</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td>亚龙湾海滩</td>
+                        <td>游玩：玩水、拍照、散步<br>停车：亚龙湾中心广场停车场<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td>午餐：琼乡阁海南椰子鸡（亚龙湾店）</td>
+                        <td>地址：亚龙湾湾月路<br>菜品：椰子鸡、腊味煲仔饭、椰子饭<br>人均：80元</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td>半山半岛帆船港・海景公路</td>
+                        <td>游玩：沿海公路拍照、帆船港打卡<br>停车：半山半岛帆船港地面车位<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td>三亚湾・椰梦长廊（看日落）</td>
+                        <td>最佳时间：17:30-18:30<br>停车：三亚湾海虹广场停车场<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>18:30</td>
+                        <td>晚餐：火车头万人海鲜广场</td>
+                        <td>地址：三亚市海润路<br>推荐：龙虾、和乐蟹、芒果螺、石斑鱼<br>人均：110元</td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td>亿恒主题夜市</td>
+                        <td>小吃：清补凉、烤生蚝、海南炸炸、手打柠檬茶<br>人均：40元</td>
+                    </tr>
+                </table>
+                <div class="accommodation">
+                    <h3>住宿：海旅・君澜三亚湾迎宾馆</h3>
+                    <p>地址：三亚湾旅游度假区1号（椰梦长廊旁）</p>
+                    <p>房型：2间标准双床房 | 价格：720元（360元/晚×2间）</p>
+                    <p>优势：出门即海边、免费停车、含早餐、上高速方便</p>
+                    <p>停车：酒店内免费大型停车场</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="day-card">
+            <div class="day-header">Day 2 三亚全天（热带雨林 + 海岛风情）</div>
+            <div class="day-content">
+                <table>
+                    <tr>
+                        <th>时间</th>
+                        <th>行程</th>
+                        <th>详情</th>
+                    </tr>
+                    <tr>
+                        <td>09:30</td>
+                        <td>起床 + 早餐</td>
+                        <td>酒店早餐</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td>亚龙湾热带天堂森林公园</td>
+                        <td>游玩：玻璃栈道、索桥、山顶观景台<br>停车：公园正门停车场<br>门票：158元/人（含观光车）</td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td>午餐：海亚餐厅（亚龙湾店）</td>
+                        <td>地址：亚龙湾旅游度假区内<br>菜品：海南四大名菜、野菜<br>人均：90元</td>
+                    </tr>
+                    <tr>
+                        <td>14:30</td>
+                        <td>西岛旅游区</td>
+                        <td>游玩：渔村漫步、牛王岭、海上项目<br>停车：西岛码头停车场<br>门票+船票：98元/人</td>
+                    </tr>
+                    <tr>
+                        <td>17:30</td>
+                        <td>三亚湾・椰梦长廊（日落）</td>
+                        <td>最佳时间：17:30-18:30<br>停车：三亚湾海虹广场停车场<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>18:30</td>
+                        <td>晚餐：阿俊糟粕醋（三亚湾店）</td>
+                        <td>地址：三亚湾路<br>推荐：海鲜糟粕醋火锅、炸猪皮、海南粉<br>人均：60元</td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td>三亚湾散步</td>
+                        <td>吹海风、看夜景</td>
+                    </tr>
+                </table>
+                <div class="accommodation">
+                    <h3>住宿：海旅・君澜三亚湾迎宾馆（续住）</h3>
+                    <p>价格：720元（360元/晚×2间）</p>
+                    <p>优势：无需换酒店，节省时间，同Day1</p>
+                    <p>停车：酒店内免费大型停车场</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="day-card">
+            <div class="day-header">Day 3 三亚 → 陵水（玻璃海 + 沙滩 + 海鲜）</div>
+            <div class="day-content">
+                <table>
+                    <tr>
+                        <th>时间</th>
+                        <th>行程</th>
+                        <th>详情</th>
+                    </tr>
+                    <tr>
+                        <td>09:30</td>
+                        <td>退房出发前往陵水</td>
+                        <td>车程：约1小时</td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                        <td>分界洲岛</td>
+                        <td>游玩：玻璃海浮潜、魔鬼鱼互动、月光古堡拍照<br>停车：分界洲岛码头停车场<br>门票+船票：128元/人<br>浮潜项目：200元/人</td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td>午餐：分界洲岛海景餐厅</td>
+                        <td>地址：分界洲岛景区内<br>菜品：海鲜套餐、海南特色菜<br>人均：100元</td>
+                    </tr>
+                    <tr>
+                        <td>14:30</td>
+                        <td>清水湾会唱歌的沙滩</td>
+                        <td>游玩：沙滩漫步、听沙滩声响<br>停车：清水湾旅游区停车场<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>17:00</td>
+                        <td>赤岭村</td>
+                        <td>游玩：《非诚勿扰2》取景地、自由灯塔拍照<br>停车：赤岭村停车场<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>18:30</td>
+                        <td>晚餐：新村港海鲜市场</td>
+                        <td>地址：陵水新村港<br>推荐：现捞海鲜加工<br>人均：120元</td>
+                    </tr>
+                </table>
+                <div class="accommodation">
+                    <h3>住宿：陵水清水湾莫兰迪设计酒店</h3>
+                    <p>地址：陵水清水湾旅游度假区</p>
+                    <p>房型：2间标准双床房 | 价格：560元（280元/晚×2间）</p>
+                    <p>优势：靠近清水湾沙滩、免费停车、设计感强</p>
+                    <p>停车：酒店内免费停车场</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="day-card">
+            <div class="day-header">Day 4 陵水 → 万宁（冲浪 + 海岸公路 + 日落）</div>
+            <div class="day-content">
+                <table>
+                    <tr>
+                        <th>时间</th>
+                        <th>行程</th>
+                        <th>详情</th>
+                    </tr>
+                    <tr>
+                        <td>09:30</td>
+                        <td>退房出发前往万宁</td>
+                        <td>车程：约1小时</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td>石梅湾海滩 + 九里书屋</td>
+                        <td>游玩：沙滩散步、网红书屋打卡<br>停车：石梅湾旅游公路停车场<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td>午餐：石梅湾渔家味道</td>
+                        <td>地址：石梅湾旅游度假区内<br>菜品：文昌鸡、海鲜炒饭、清炒四角豆<br>人均：70元</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td>日月湾冲浪体验</td>
+                        <td>店铺：戒浪不 / 沙卡冲浪店<br>项目：1小时新手课（4人拼2教练）<br>人均：200元<br>停车：日月湾主街停车场</td>
+                    </tr>
+                    <tr>
+                        <td>17:00</td>
+                        <td>神州半岛灯塔（日落打卡）</td>
+                        <td>游玩：灯塔拍照、看日落<br>停车：神州半岛泰悦居附近车位<br>门票：免费</td>
+                    </tr>
+                    <tr>
+                        <td>18:30</td>
+                        <td>晚餐：日月湾海岛糟粕醋火锅</td>
+                        <td>地址：日月湾主街<br>推荐：海鲜糟粕醋、炸猪皮<br>人均：70元</td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td>日月湾夜市</td>
+                        <td>小吃：清补凉、海南炸炸<br>人均：30元</td>
+                    </tr>
+                </table>
+                <div class="accommodation">
+                    <h3>住宿：万宁芊寻民宿（日月湾银宿）</h3>
+                    <p>地址：万宁市礼纪镇田新村（日月湾旁1.2km）</p>
+                    <p>房型：2间双床房 | 价格：520元（260元/晚×2间）</p>
+                    <p>优势：银宿认证、可接送海滩、拍照出片</p>
+                    <p>停车：民宿院内免费停车</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips">
+            <h2>实用贴士</h2>
+            <ul>
+                <li>行程全程沿三亚→陵水→万宁向北行进，无回头路，每日车程不超1小时</li>
+                <li>住宿均为2间双床房适配4人，靠近核心景点，停车免费</li>
+                <li>餐厅均为当地口碑店，可直接导航前往，避免踩雷</li>
+                <li>海南高速免费，油费略高，4人AA性价比最高</li>
+                <li>冲浪/浮潜建议带泳衣、毛巾、高倍防晒霜</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
